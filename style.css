@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+
+}
+
+body {
+    background: #8A51FC;
+}
+.logo-convert {
+    width: 300px;
+    height: 300px;
+    margin:12px auto 16px;
+    display: block;
+}
+main {
+    width: 375px;
+    height: 100%;
+    border-radius: 20px;
+    background: #F4F4F4;
+    margin: 0 auto 0;
+    padding: 44px 24px 23px;
+}
+label {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    
+}
+select {
+    width: 327px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    margin-bottom: 24px;
+    padding-left: 18px;
+}
+input {
+    width: 327px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+    color: #555;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    padding-left: 18px;
+}
+button {
+    width: 327px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    background: #772FD3;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px; 
+    margin: 23px auto 36px;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.8;
+}
+button:active {
+    opacity: 0.5;
+}
+section {
+    width: 327px;
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    margin: auto;
+    padding-bottom: 13px;
+}
+
+p {
+    text-align: center;
+}
+.brasil-flag, .arrow, .USA-flag {
+    display: block;
+    margin: 12px auto 0;
+}
